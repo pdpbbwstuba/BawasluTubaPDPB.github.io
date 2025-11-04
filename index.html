@@ -145,8 +145,8 @@
             <!-- Nama Instansi - Dibuat lebih jelas -->
             <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-3">
                 <h1 class="text-xl font-extrabold text-bawaslu-gold tracking-wider">
-                    <!-- PERUBAHAN: Mengubah SITUBA menjadi SiTuba di Header Halaman -->
-                    SiTuba (SISTEM INFORMASI PENGAWASAN TULANG BAWANG)
+                    <!-- PERUBAHAN: Mengubah SITUBA menjadi SIWASTUBA di Header Halaman -->
+                    SIWASTUBA (SISTEM INFORMASI PENGAWASAN TULANG BAWANG)
                 </h1>
                 <p class="text-sm font-medium text-white/90 sm:text-lg">
                     POJOK ADUAN PDPB
@@ -167,11 +167,11 @@
                 </h2>
                 <p class="text-gray-600 text-lg mb-6">
                     <!-- PERUBAHAN: Menghapus ** dari deskripsi -->
-                    SiTuba (Sistem Informasi Pengawasan Tulang Bawang) adalah inovasi digital Bawaslu Tulang Bawang. Menciptakan Pemilu yang Jujur dan Adil di Kabupaten Tulang Bawang dimulai dari data yang bersih. Gunakan Asisten Pengaduan Digital untuk panduan dan konsultasi pelaporan PDPB.
+                    SIWASTUBA (Sistem Informasi Pengawasan Tulang Bawang) adalah inovasi digital Bawaslu Tulang Bawang. Menciptakan Pemilu yang Jujur dan Adil di Kabupaten Tulang Bawang dimulai dari data yang bersih. Gunakan Asisten Pengaduan Digital untuk panduan dan konsultasi pelaporan PDPB.
                 </p>
                 <!-- Tombol Hero diubah, sekarang mengarah ke Chatbot -->
                 <a href="#chatbot-space" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-bawaslu-gold hover:bg-yellow-600 transition duration-300 transform hover:scale-105">
-                    Mulai Konsultasi (Chatbot SiTuba)
+                    Mulai Konsultasi (Chatbot SIWASTUBA)
                     <i data-lucide="arrow-right" class="icon ml-2"></i>
                 </a>
             </div>
@@ -183,8 +183,8 @@
 
         <!-- Bagian Ruang Kosong untuk Integrasi Chatbot (Kini diisi dengan Chatbot App) -->
         <section class="bg-white rounded-xl shadow-2xl p-8 md:p-12 border-t-4 border-bawaslu-gold" id="chatbot-space">
-            <!-- PERUBAHAN: Menambahkan SiTuba di judul Chatbot -->
-            <h2 class="text-3xl font-bold text-bawaslu-blue mb-6 border-b pb-2">SiTuba: Asisten Pengaduan Digital (Chatbot)</h2>
+            <!-- PERUBAHAN: Menambahkan SIWASTUBA di judul Chatbot -->
+            <h2 class="text-3xl font-bold text-bawaslu-blue mb-6 border-b pb-2">SIWASTUBA: Asisten Pengaduan Digital (Chatbot)</h2>
             <p class="text-gray-700 mb-6">Gunakan Chatbot interaktif di bawah ini untuk mendapatkan informasi cepat dan memandu proses pelaporan PDPB.</p>
 
             <!-- CHATBOT APP DARI FILE YANG DISEDIAKAN -->
@@ -194,7 +194,7 @@
                     <!-- Header Chatbot (Gradient Indigo-Ungu Modern) -->
                     <header class="bg-gradient-to-r from-indigo-700 to-purple-600 text-white p-5 shadow-xl flex flex-col items-center justify-center space-y-2 relative overflow-hidden sm:p-6">
                         <div class="text-center relative z-10">
-                            <!-- PERUBAHAN: Mengubah SITUBA menjadi SiTuba di Header Chatbot -->
+                            <!-- PERUBAHAN: Mengubah SITUBA menjadi SIWASTUBA di Header Chatbot -->
                             <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight header-title">SiTuba - ASISTEN DIGITAL</h1>
                             <p class="text-sm font-medium opacity-90 mt-1 header-subtitle">BAWASLU KABUPATEN TULANG BAWANG</p>
                         </div>
@@ -400,9 +400,9 @@
                     case 'start':
                     case 'start_over':
                         // PERUBAHAN: Menghapus ** dari sapaan awal
-                        addMessage('bot', "Selamat datang di SiTuba (Sistem Informasi Pengawasan Tulang Bawang), inovasi digital dari Bawaslu Kabupaten Tulang Bawang.");
+                        addMessage('bot', "Selamat datang di SIWASTUBA (Sistem Informasi Pengawasan Tulang Bawang), inovasi digital dari Bawaslu Kabupaten Tulang Bawang.");
                         addMessage('bot', "Kami adalah Asisten Digital yang siap memandu Bapak/Ibu dalam mengawasi dan melaporkan dugaan permasalahan Pemutakhiran Data Pemilih Berkelanjutan (PDPB).");
-                        addMessage('bot', "Apakah ada yang bisa SiTuba bantu terkait data pemilih?");
+                        addMessage('bot', "Apakah ada yang bisa SIWASTUBA bantu terkait data pemilih?");
                         showOptions([
                             { text: "Ya, saya ingin MELAPOR/MENGADU", value: "mulai_aduan" },
                             { text: "Edukasi & Sosialisasi PDPB", value: "edukasi_menu", styleClass: "blue-style" }
@@ -504,4 +504,5 @@
     </script>
 </body>
 </html>
+
 
